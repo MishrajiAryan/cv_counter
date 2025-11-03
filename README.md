@@ -22,7 +22,7 @@ The system is particularly effective when deployed with camera feeds positioned 
 1. **Open the Notebook**: Upload `Footfall_counter.ipynb` to Google Colab or open it directly if you have the repository cloned
 2. **Install Dependencies**: Run the first cell to install required packages:
    ```python
-   !pip install opencv-python ultralytics numpy matplotlib
+   !pip install ultralytics
    ```
 3. **Upload Video**: Upload your video file or use the provided `ww.mp4` demo video
 4. **Run the Counter**: Execute the main cells to start the footfall counting process
@@ -91,32 +91,6 @@ Simply run the notebook with `ww.mp4` as input to see the counter's capabilities
 - NumPy
 - Matplotlib
 - Google Colab (optional, for cloud execution)
-
-## How to Contribute
-
-We welcome contributions to improve the CV Counter project! Here's how you can help:
-
-1. **Fork the Repository**: Click the fork button to create your own copy
-2. **Create a Feature Branch**: 
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Make Changes**: Implement your improvements or bug fixes
-4. **Test Thoroughly**: Ensure your changes work with the demo video and don't break existing functionality
-5. **Submit a Pull Request**: Provide a clear description of your changes and their benefits
-
-### Areas for Contribution
-
-- Improving detection accuracy
-- Adding support for multiple camera angles
-- Implementing directional counting (in/out)
-- Optimizing performance for real-time processing
-- Adding visualization features
-- Documentation improvements
-
-## License
-
-This project is open source. Please check the repository for specific license details.
 
 ---
 
